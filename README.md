@@ -6,4 +6,8 @@
 
 ## Packages
 
-All packages except for torchmin can be installed via pip. To install torchmin, follow instructions at: https://github.com/rfeinman/pytorch-minimize.
+All packages (specified in REQUIREMENTS.txt) except for torchmin can be installed via pip. To install torchmin, follow instructions at: https://github.com/rfeinman/pytorch-minimize.
+
+## Reproducing Results
+
+All of the figures and results can be reproduced simply by running the cells in each of the notebooks. For PlanarFlows, run the PlanarFlows notebook etc.

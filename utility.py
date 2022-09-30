@@ -9,10 +9,13 @@ class Datasets(Dataset):
     def __init__(self, dataset):
         if dataset == "boom":
             df = pd.read_csv("datasets/boomerang.csv")
+            self.name = "Boomerang"
         elif dataset == "blobs":
             df = pd.read_csv("datasets/two_blobs.csv")
+            self.name = "Two Blobs"
         else:
             df = pd.read_csv("datasets/two_moons.csv")
+            self.name = "Two Moons"
         features = df.iloc[:,0:2].values
         self.features=torch.tensor(features, dtype=torch.float32)
  

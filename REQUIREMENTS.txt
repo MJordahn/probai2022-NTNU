@@ -1,0 +1,7 @@
+torch==1.12.1
+pandas==1.4.3
+matplotlib==3.5.3
+torchdiffeq==0.2.3
+scipy==1.9.1
+torchmin==0.0.2
+numpy==1.23.2
